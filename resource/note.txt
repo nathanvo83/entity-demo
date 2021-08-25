@@ -1,1 +1,16 @@
-dotnet ef dbcontext scaffold "Server=localhost;Initial Catalog=DBFirst;User ID=todo-dev;Password=P@ssw0rd;" Microsoft.EntityFrameworkCore.SqlServer --context-dir .\ -o .\Entity\ -f
+dotnet ef dbcontext scaffold "Server=localhost;Initial Catalog=todo-db;User ID=dev;Password=P@ssw0rd;" Microsoft.EntityFrameworkCore.SqlServer --context-dir .\ -o .\Entity\ -f
+
+
+Nuget
+	data
+		Microsoft.EntityFrameworkCore
+		Microsoft.EntityFrameworkCore.Design
+		Microsoft.EntityFrameworkCore.SqlServer
+	service
+		AutoMapper.Extensions.Microsoft.DependencyInjection
+		AutoMapper.Extensions.ExpressionMapping
+		EFCore.BulkExtensions
+	api
+		Microsoft.AspNetCore.Mvc.NewtonsoftJson
+		Swashbuckle.AspNetCore
+
