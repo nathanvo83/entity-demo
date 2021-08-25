@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/entity-demo
+/entity.api/bin/Debug/netcoreapp3.1
+/entity.api/obj
+/entity.common/bin/Debug/netcoreapp3.1
+/entity.common/obj
+/entity.data/obj
+/entity.data/bin/Debug/netcoreapp3.1
+/entity.service/bin/Debug/netcoreapp3.1
+/entity.service/obj
+/entity.service.model/bin/Debug/netcoreapp3.1
+/entity.service.model/obj
